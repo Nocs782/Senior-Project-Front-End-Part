@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white px-20 py-20 flex gap-10 justify-center">
+  <div id="footer" class="bg-white px-20 py-20 flex gap-10 justify-center">
     <div class="w-4/12">
       <img class="h-20" src="/logo.webp" alt="" />
       <p class="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">

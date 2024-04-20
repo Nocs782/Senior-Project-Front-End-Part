@@ -2,21 +2,41 @@
 const posts = [
   {
     id: 1,
-    title: 'Good food',
-    href: '#',
+    title: 'Exquisite Culinary Symphony',
     description:
-      'Lorem ipsum dolor sit amet consectetur. Tortor massa nisl quam sit. Vitae congue ultrices neque penatibus mi in quisque. Leo in cursus enim magnis ante. Proin iaculis platea ipsum sagittis ac eu aliquam quis. Ornare tincidunt tempus semper ',
-    date: 'Mar 16, 2020',
-    datetime: '2020-03-16',
+      'The ambiance was delightful, the service impeccable, and each dish was a masterpiece of flavor and presentation. A truly exceptional dining experience, highly recommended for any food enthusiast!',
+    date: 'June 13, 2023',
     category: { title: 'Marketing', href: '#' },
     author: {
-      name: 'Michael Foster',
-      role: 'Co-Founder / CTO',
-      href: '#',
-      imageUrl:
-        'https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80'
+      name: 'Juliette Dubois',
+      imageUrl: '/profile.svg'
+    }
+  },
+  {
+    id: 2,
+    title: 'Elegant Dining Gem',
+    description:
+      'The culinary journey at this restaurant was unparalleled; every bite was a symphony of taste. Kudos to the chef and staff for creating such a memorable dining affair!',
+    date: 'Mar 20, 2022',
+    category: { title: 'Marketing', href: '#' },
+    author: {
+      name: 'Lucas Reynard',
+      imageUrl: '/profile.svg'
+    }
+  },
+  {
+    id: 3,
+    title: 'Gourmet Excellence',
+    description:
+      'The restaurant exudes elegance, and the cuisine is simply outstanding. From appetizers to desserts, each dish surpassed expectations. A culinary gem worth revisiting! ',
+    date: 'May 10, 2021',
+    category: { title: 'Marketing', href: '#' },
+    author: {
+      name: 'Amélie Bergeron',
+      imageUrl: '/profile.svg'
     }
   }
+
   // More posts...
 ]
 </script>

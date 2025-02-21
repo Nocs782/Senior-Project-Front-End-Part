@@ -16,6 +16,7 @@ This project is the front-end implementation of a fast-food restaurant ordering 
 - Responsive design for different screen sizes
 - Vue Router for navigation
 - State management (Vuex or Pinia if implemented)
+- Creation of item cards from the Database (Using backend from other code)
 
 ## Installation
 To set up the project locally, follow these steps:

@@ -1,35 +1,68 @@
-# Senior Project Front-End Part
+# Senior Project - Front-End Part
 
-This template should help get you started developing with Vue 3 in Vite.
+## Overview
+This project is the front-end implementation of a fast-food restaurant ordering system, built using **Vue 3**. The application provides an interactive user interface for customers to browse the menu, place orders, and manage their cart.
 
-## Recommended IDE Setup
+## Technologies Used
+- **Vue 3** (Primary framework)
+- **JavaScript** (Logic and interactivity)
+- **HTML** (Markup structure)
+- **CSS** (Styling and layout)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Features
+- Menu browsing with categorized food items
+- Cart management (add, remove, update items)
+- Order submission functionality
+- Responsive design for different screen sizes
+- Vue Router for navigation
+- State management (Vuex or Pinia if implemented)
 
-## Customize configuration
+## Installation
+To set up the project locally, follow these steps:
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/Nocs782/Senior-Project-Front-End-Part.git
+   cd Senior-Project-Front-End-Part
+   ```
 
-## Project Setup
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-```sh
-npm install
-```
+3. Start the development server:
+   ```sh
+   npm run dev
+   ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
+## Build for Production
+To compile and minify the project for production, run:
 ```sh
 npm run build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
-
+## Linting and Code Quality
+To check and fix linting issues:
 ```sh
 npm run lint
 ```
+
+## Recommended Development Setup
+- **IDE**: VSCode with Volar extension (Disable Vetur if installed)
+- **Vue DevTools**: Useful for debugging and state inspection
+
+## Future Enhancements (Optional)
+- Integration with a backend API for real order processing
+- User authentication and profile management
+- Payment gateway integration
+
+## Contribution
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
+
+## License
+This project is open-source and available under the [MIT License](LICENSE).
+
+---
+Feel free to modify this README based on additional features or configurations specific to your project!
+

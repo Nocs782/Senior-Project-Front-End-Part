@@ -60,9 +60,3 @@ npm run lint
 ## Contribution
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request.
 
-## License
-This project is open-source and available under the [MIT License](LICENSE).
-
----
-Feel free to modify this README based on additional features or configurations specific to your project!
-
